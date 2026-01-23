@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PrivaTranslate</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9fafb;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2rem;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #4f46e5;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            color: #1a1a1a;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            color: #374151;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #4b5563;
+        }
+        
+        .last-updated {
+            color: #6b7280;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #4b5563;
+        }
+        
+        ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #e5e7eb;
+        }
+        
+        th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+            color: #374151;
+        }
+        
+        td {
+            color: #4b5563;
+        }
+        
+        code {
+            background-color: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #e11d48;
+        }
+        
+        a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #e5e7eb;
+            margin: 30px 0;
+        }
+        
+        .highlight {
+            background-color: #fef3c7;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 4px solid #f59e0b;
+            margin: 20px 0;
+        }
+        
+        .highlight p {
+            margin: 0;
+            color: #92400e;
+            font-weight: 500;
+        }
+        
+        .summary-box {
+            background-color: #eff6ff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #bfdbfe;
+        }
+        
+        .summary-box ol {
+            margin-bottom: 0;
+        }
+        
+        .footer-note {
+            text-align: center;
+            font-style: italic;
+            color: #6b7280;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        
+        strong {
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for PrivaTranslate</h1>
+        <p class="last-updated"><strong>Last Updated: January 22, 2026</strong></p>
+        
+        <h2>Overview</h2>
+        <p>PrivaTranslate is a privacy-first browser extension designed to translate web pages using a locally-running Large Language Model (LLM) via Ollama. <strong>Your data never leaves your device.</strong></p>
+        
+        <h2>Data Collection</h2>
+        
+        <h3>What We DO NOT Collect</h3>
+        <p>PrivaTranslate does <strong>NOT</strong> collect, store, transmit, or share any of the following:</p>
+        <ul>
+            <li>❌ Personal information</li>
+            <li>❌ Browsing history</li>
+            <li>❌ Web page content</li>
+            <li>❌ Translation requests or results</li>
+            <li>❌ IP addresses</li>
+            <li>❌ Device identifiers</li>
+            <li>❌ Usage analytics or statistics</li>
+            <li>❌ Cookies or tracking data</li>
+        </ul>
+        
+        <h3>What We Store Locally</h3>
+        <p>PrivaTranslate stores the following data <strong>only on your local device</strong> using Chrome's <code>storage.sync</code> API:</p>
+        <ul>
+            <li>✅ User preferences (Ollama URL, model name, source/target language)</li>
+            <li>✅ Translation mode setting (overlay, replace, or side-by-side)</li>
+            <li>✅ Connection timeout settings</li>
+        </ul>
+        <p>This data is stored locally and synced across your Chrome browsers if you are signed into Chrome. <strong>This data is never sent to us or any third party.</strong></p>
+        
+        <h2>Network Requests</h2>
+        
+        <h3>Local Requests Only</h3>
+        <p>PrivaTranslate makes network requests <strong>exclusively</strong> to:</p>
+        <ul>
+            <li><code>http://127.0.0.1</code> (localhost)</li>
+            <li><code>http://localhost</code></li>
+        </ul>
+        <p>These requests are sent to your <strong>locally-running Ollama server</strong> to perform translations. No data is ever transmitted to external servers, cloud services, or third parties.</p>
+        
+        <h3>No External Communications</h3>
+        <ul>
+            <li>❌ No analytics services (Google Analytics, Mixpanel, etc.)</li>
+            <li>❌ No advertising networks</li>
+            <li>❌ No external APIs or cloud translation services</li>
+            <li>❌ No telemetry or crash reporting services</li>
+        </ul>
+        
+        <h2>Permissions</h2>
+        <p>PrivaTranslate requires certain browser permissions to function. Here's why:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>storage</code></td>
+                    <td>Save your preferences locally</td>
+                </tr>
+                <tr>
+                    <td><code>activeTab</code></td>
+                    <td>Access current page for translation</td>
+                </tr>
+                <tr>
+                    <td><code>scripting</code></td>
+                    <td>Extract text and apply translations</td>
+                </tr>
+                <tr>
+                    <td><code>contextMenus</code></td>
+                    <td>Provide right-click translation option</td>
+                </tr>
+                <tr>
+                    <td><code>host_permissions</code> (localhost)</td>
+                    <td>Communicate with local Ollama server</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Third-Party Services</h2>
+        <p>PrivaTranslate does not integrate with any third-party services. The only external dependency is <strong>Ollama</strong>, which runs entirely on your local machine.</p>
+        
+        <h2>Data Security</h2>
+        <p>Since all data processing occurs locally on your device:</p>
+        <ul>
+            <li>Your translation content never travels over the internet</li>
+            <li>There is no server-side storage of your data</li>
+            <li>There is no risk of data breaches from our end (we have no servers)</li>
+        </ul>
+        
+        <h2>Children's Privacy</h2>
+        <p>PrivaTranslate does not collect any personal information from anyone, including children under 13 years of age.</p>
+        
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date at the top of this document.</p>
+        
+        <h2>Contact</h2>
+        <p>If you have any questions about this Privacy Policy, please open an issue on our GitHub repository.</p>
+        
+        <hr>
+        
+        <h2>Summary</h2>
+        <div class="summary-box">
+            <p><strong>PrivaTranslate is designed with privacy as the core principle:</strong></p>
+            <ol>
+                <li>🔒 <strong>Zero data collection</strong> - We collect nothing</li>
+                <li>🏠 <strong>100% local processing</strong> - All translations happen on your machine</li>
+                <li>🚫 <strong>No external requests</strong> - Only connects to your local Ollama server</li>
+            </ol>
+        </div>
+        <p class="footer-note"><strong>Your privacy is not just a feature—it's our purpose.</strong></p>
+    </div>
+</body>
+</html>
