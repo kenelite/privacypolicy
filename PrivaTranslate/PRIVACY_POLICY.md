@@ -81,12 +81,6 @@ PrivaTranslate does not collect any personal information from anyone, including 
 
 We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date at the top of this document.
 
-## Open Source
-
-PrivaTranslate is open source. You can review our code to verify our privacy practices:
-
-- GitHub: [https://github.com/kenelite/PrivaTranslate](https://github.com/kenelite/PrivaTranslate)
-
 ## Contact
 
 If you have any questions about this Privacy Policy, please open an issue on our GitHub repository.
@@ -100,6 +94,5 @@ If you have any questions about this Privacy Policy, please open an issue on our
 1. 🔒 **Zero data collection** - We collect nothing
 2. 🏠 **100% local processing** - All translations happen on your machine
 3. 🚫 **No external requests** - Only connects to your local Ollama server
-4. 📖 **Open source** - Fully auditable code
 
 **Your privacy is not just a feature—it's our purpose.**
