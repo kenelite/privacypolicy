@@ -105,7 +105,7 @@ We may update this Privacy Policy from time to time. Changes will be reflected i
 ## Contact
 
 If you have questions about this Privacy Policy, please contact us at:
-- **Email:** [your-email@example.com]
+- **Email:** [kenelite.sg@gmail.com]
 
 ---
 
