@@ -1,6 +1,6 @@
 # Privacy Policy — PrivyMermaid (macOS)
 
-**Last updated:** January 2025
+**Last updated:** January 2026
 
 This Privacy Policy describes how PrivyMermaid (“the App”) handles information when you use the macOS application. The App is designed with privacy in mind: we do not collect, transmit, or sell your personal data.
 
@@ -72,7 +72,13 @@ We may update this Privacy Policy from time to time. The “Last updated” date
 
 ---
 
-## 9. Contact
+## 9. Third-Party Software
+
+The App may bundle or use third-party software (e.g. for diagram rendering). Licenses and attribution for such software are set out in **[THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)**. That document does not change how we handle your data; this Privacy Policy still applies to the App.
+
+---
+
+## 10. Contact
 
 If you have questions about this Privacy Policy or the App’s handling of data, please contact us at the support or contact address provided in the App Store listing or on the App’s official website.
 
