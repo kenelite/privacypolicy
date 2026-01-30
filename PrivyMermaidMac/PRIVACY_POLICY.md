@@ -74,7 +74,7 @@ We may update this Privacy Policy from time to time. The “Last updated” date
 
 ## 9. Third-Party Software
 
-The App may bundle or use third-party software (e.g. for diagram rendering). Licenses and attribution for such software are set out in **[THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)**. That document does not change how we handle your data; this Privacy Policy still applies to the App.
+The App may bundle or use third-party software (e.g. for diagram rendering). Licenses and attribution for such software are set out in **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**. That document does not change how we handle your data; this Privacy Policy still applies to the App.
 
 ---
 
