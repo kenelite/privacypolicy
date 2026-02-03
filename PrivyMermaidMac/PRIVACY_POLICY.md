@@ -9,6 +9,7 @@ This Privacy Policy describes how PrivyMermaid (“the App”) handles informati
 ## 1. Summary
 
 - **No personal data collection.** We do not collect, store, or transmit any personally identifiable information.
+- **No location data.** The App does not use device location or request location permissions.
 - **No analytics or tracking.** The App does not include analytics, advertising, or third-party tracking.
 - **Data stays on your Mac.** All content and settings are stored only on your device.
 - **Optional network use.** The App may connect to a local or user-configured Ollama server; no data is sent to our servers or other third parties.
@@ -47,38 +48,44 @@ The App does **not**:
 
 ---
 
-## 5. No Account or Cloud Sync
+## 5. No Location Data
+
+The App does **not** use device location (GPS or otherwise) and does **not** request or include the location entitlement (`com.apple.security.personal-information.location`). No location data is collected or transmitted.
+
+---
+
+## 6. No Account or Cloud Sync
 
 The App does not require an account. There is no cloud sync, no login, and no server-side storage of your content.
 
 ---
 
-## 6. Your Control and Data Deletion
+## 7. Your Control and Data Deletion
 
 - All App data is stored locally. To delete it, remove the App and, if you wish, delete the folder `~/Library/Application Support/PrivyMermaidMac/`.
 - We do not retain copies of your data because we never receive it.
 
 ---
 
-## 7. Children’s Privacy
+## 8. Children’s Privacy
 
 The App does not collect personal information. We do not knowingly collect data from children; the App is not directed at children and does not require age verification.
 
 ---
 
-## 8. Changes to This Policy
+## 9. Changes to This Policy
 
 We may update this Privacy Policy from time to time. The “Last updated” date at the top will be revised when changes are made. Continued use of the App after changes constitutes acceptance of the updated policy. For significant changes, we will provide notice (e.g. in the App or on the App’s web page) where feasible.
 
 ---
 
-## 9. Third-Party Software
+## 10. Third-Party Software
 
 The App may bundle or use third-party software (e.g. for diagram rendering). Licenses and attribution for such software are set out in **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**. That document does not change how we handle your data; this Privacy Policy still applies to the App.
 
 ---
 
-## 10. Contact
+## 11. Contact
 
 If you have questions about this Privacy Policy or the App’s handling of data, please contact us at the support or contact address provided in the App Store listing or on the App’s official website.
 
